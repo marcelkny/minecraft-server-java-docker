@@ -1,0 +1,16 @@
+services:
+  spigot:
+    build: .
+    container_name: spigot
+    mem_limit: 6G
+    stdin_open: true
+    tty: true
+    ports:
+      - 25565:25565
+    volumes:
+      - world:/world
+      - plugins:/plugins
+
+volumes:
+  world:
+  plugins:
