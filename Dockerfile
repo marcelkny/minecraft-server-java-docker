@@ -1,6 +1,6 @@
 FROM eclipse-temurin:17-jdk-jammy
 # Infos zu neuen Versionen https://www.spigotmc.org/
-ARG MC_VERSION=1.19
+ARG MC_VERSION=1.19.4
 ARG MEM_LIMIT=6G
 ARG USER=minecraft-docker
 ARG GROUP=minecraft-docker
